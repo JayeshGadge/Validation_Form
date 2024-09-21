@@ -1,0 +1,50 @@
+/* styles.css */
+body {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    max-width: 500px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+    color: #ffffff; /* White color for better visibility */
+    font-size: 2rem; /* Increase font size */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* More pronounced shadow */
+    margin-bottom: 20px; /* Increase margin for spacing */
+}
+
+.btn {
+    background-color: #28a745;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #218838;
+}
+
+input {
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+}
+
+.form-label i {
+    color: #28a745;
+    margin-left: 5px;
+}
